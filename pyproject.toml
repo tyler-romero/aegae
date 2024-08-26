@@ -4,8 +4,20 @@ version = "0.1.0"
 description = "Custom Triton Kernels"
 readme = "README.md"
 requires-python = ">=3.10"
-dependencies = []
+dependencies = [
+    "triton>=3.0.0",
+    "torch>=2.3.0",
+    "matplotlib>=3.9.2",
+    "pandas>=2.2.2",
+    "tabulate>=0.9.0",
+]
 
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
+
+[tool.uv]
+dev-dependencies = [
+    "jupyter>=1.0.0",
+    "pytest>=8.3.2",
+]
