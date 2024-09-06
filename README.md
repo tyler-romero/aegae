@@ -1,6 +1,6 @@
 # Aegae
 
-Custom triton kernels and benchmarks.
+Just me learning CUDA and Triton.
 
 > Suddenly down from the mountain's rocky crags
 Poseidon stormed with giant, lightning strides
